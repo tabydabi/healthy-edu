@@ -2,20 +2,22 @@ import styled from 'styled-components'
 
 export const Input = styled.div`
   position: relative;
-  height: 100px;
+  font-size: 80%;
   width: 200px;
   border-radius: 10px;
 `
 
 export const InputButtom = styled.button`
   position: absolute;
-  right: 0;
+  right: -60px;
   top: 5px;
   border-radius: 10px;
+  width: 100px;
+  height: 65%;
 `
 export const InputText = styled.input`
-  width: 70%;
-  height: 25px;
+  width: 100%;
+  height: 30px;
   padding-right: 60px;
-  border-radius: 10px;
+  border-radius: 20px;
 `

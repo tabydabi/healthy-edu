@@ -5,25 +5,19 @@ const TableStats = () => {
     <div>
       <table border="0" style={{}}>
         <tr>
-          <th colspan="2">
-            <h1>240</h1>
-          </th>
-          <th colspan="2">
-            <h1>1.456</h1>
-          </th>
-          <th colspan="2">
-            <h1>1M+</h1>
-          </th>
+          <th>240</th>
+          <th>1.456</th>
+          <th>1M+</th>
         </tr>
         <tr>
-          <td colspan="2">
+          <td>
             Qualified Doctors &<br /> Medical Specialists
           </td>
-          <td colspan="2">
+          <td>
             Medical Tests Done
             <br /> For Our Patients
           </td>
-          <td colspan="2">
+          <td>
             Years of Experience
             <br /> The Medical Field
           </td>
