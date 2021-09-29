@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import 'typeface-roboto'
 
 export const Wrapper = styled.div`
-  width: 50%;
+  width: 35%;
   height: 100%;
   padding: 0.2rem calc((100vw - 1000px) / 2);
   color: #215ee9;
