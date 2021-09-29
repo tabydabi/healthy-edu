@@ -1,44 +1,48 @@
 import React from 'react'
+import { FaBars } from 'react-icons/fa'
 import {
   Nav,
   NavLogo,
   NavLink,
-  Bars,
+  MobileIcon,
   NavMenu,
   NavBtn,
   NavBtnLink,
+  NavbarContainer,
+  NavItem,
 } from './styles'
 
 const Navbar = () => {
   return (
     <React.Fragment>
       <Nav>
-        <NavLogo to="/">Modsen Health</NavLogo>
-        <Bars />
-
-        <NavMenu>
-          <NavLink to="/" activeStyle>
-            Home
-          </NavLink>
-          <NavLink to="/about" activeStyle>
-            Services
-          </NavLink>
-          <NavLink to="/contact" activeStyle>
-            Clinic
-          </NavLink>
-          <NavLink to="/signin" activeStyle>
-            Doctor
-          </NavLink>
-          <NavLink to="/signin" activeStyle>
-            Contact
-          </NavLink>
+        <NavbarContainer>
+          <NavLogo to="/"> Modsen </NavLogo>
+          <MobileIcon>
+            <FaBars />
+          </MobileIcon>
+          <NavMenu>
+            <NavItem>
+              <NavLink to="Home">Home</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="Services">Services</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="Clinic">Clinic</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="Doctors">Doctors</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="Contact">Contact</NavLink>
+            </NavItem>
+          </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/sign-up">Sign Up</NavBtnLink>
+            <NavBtnLink to="signin">Sign</NavBtnLink>
+            <NavBtnLink to="register">Register</NavBtnLink>
           </NavBtn>
-          <NavBtn>
-            <NavBtnLink to="/sign-up">Register</NavBtnLink>
-          </NavBtn>
-        </NavMenu>
+        </NavbarContainer>
       </Nav>
     </React.Fragment>
   )
