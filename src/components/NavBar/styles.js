@@ -12,7 +12,7 @@ export const Nav = styled.nav`
   font-size: 1rem;
   position: sticky;
   top: 0;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
+  //padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 10;
 
   @media screen and (max-width: 960px) {

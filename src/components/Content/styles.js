@@ -2,9 +2,10 @@ import styled from 'styled-components'
 import 'typeface-roboto'
 
 export const Wrapper = styled.div`
-  width: 35%;
+  width: 50%;
   height: 100%;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
+  position: sticky;
+  padding: 0.2rem calc((100vw - 1150px) / 2);
   color: #215ee9;
 `
 export const LittleText = styled.p`
