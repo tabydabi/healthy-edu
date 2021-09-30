@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  position: relative;
+  width: 50%;
+  height: 100%;
 `
 export const Hero = styled.img`
   position: absolute;

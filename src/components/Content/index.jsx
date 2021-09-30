@@ -10,7 +10,7 @@ import {
 
 const Content = () => {
   return (
-    <Wrapper>
+    <React.Fragment>
       <LittleText>
         Booking of doctor’s appointment
       </LittleText>
@@ -27,7 +27,7 @@ const Content = () => {
       </DescriptionText>
       <InputPage />
       <TableStats />
-    </Wrapper>
+    </React.Fragment>
   )
 }
 
