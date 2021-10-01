@@ -3,8 +3,14 @@ import React from 'react'
 const TableStats = () => {
   return (
     <div>
-      <table border="0">
-        <tr>
+      <table
+        border="0"
+        style={{
+          borderSpacing: '6vh 1vh',
+          marginBlockStart: '9.7vh',
+          marginLeft: '-5.4vh',
+        }}>
+        <tr style={{ fontSize: '5vh', textAlign: 'left' }}>
           <th>240</th>
           <th>1.456</th>
           <th>1M+</th>

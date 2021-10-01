@@ -21,8 +21,9 @@ const Content = () => {
       </BigText>
       <DescriptionText>
         We want to make sure that everyone has access to
-        natural and effective care. With our special, you’ll
-        receive a consultation and a digital posture
+        natural
+        <br /> and effective care. With our special, you’ll
+        receive a<br /> consultation and a digital posture
         assesment.
       </DescriptionText>
       <InputPage />

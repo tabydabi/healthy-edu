@@ -1,31 +1,30 @@
 import styled from 'styled-components'
 import 'typeface-roboto'
 
-export const Wrapper = styled.div`
-  width: 50%;
-  height: 100%;
-  position: sticky;
-  padding: 0.2rem calc((100vw - 1150px) / 2);
+export const LittleText = styled.p`
+  font-size: 0.87vw;
+  font-family: roboto;
+  font-weight: bold;
+  padding: 13px 7px;
   color: #215ee9;
 `
-export const LittleText = styled.p`
-  font-size: 14px;
-  font-family: roboto;
-  font-weight: bold;
-`
 
-export const BigText = styled.p`
+export const BigText = styled.h1`
   font-family: roboto;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 101.8%;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
+  font-size: 5.3vh;
+  line-height: 108%;
+  margin-block-start: -0.1em;
+  padding: 0px 0.5vw;
+  color: #215ee9;
+  text-align: justify;
 `
 export const DescriptionText = styled.p`
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.7vh;
   line-height: 30px;
+  color: #215ee9;
+  margin-block-start: -0.9em;
 `

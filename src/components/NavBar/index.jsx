@@ -10,6 +10,8 @@ import {
   NavBtnLink,
   NavbarContainer,
   NavItem,
+  NavBtnIcon,
+  NavLogoIcon,
 } from './styles'
 
 const Navbar = () => {
@@ -17,7 +19,7 @@ const Navbar = () => {
     <React.Fragment>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/"> Modsen </NavLogo>
+          <NavLogo to="/"> Modsen Health </NavLogo>
           <MobileIcon>
             <FaBars />
           </MobileIcon>
@@ -41,6 +43,7 @@ const Navbar = () => {
           <NavBtn>
             <NavBtnLink to="signin">Sign</NavBtnLink>
             <NavBtnLink to="register">Register</NavBtnLink>
+            <NavBtnIcon to="follow"></NavBtnIcon>
           </NavBtn>
         </NavbarContainer>
       </Nav>

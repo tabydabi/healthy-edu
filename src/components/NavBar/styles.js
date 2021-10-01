@@ -3,7 +3,6 @@ import { NavLink as Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const Nav = styled.nav`
-  background: ;
   height: 85px;
 
   display: flex;
@@ -11,7 +10,7 @@ export const Nav = styled.nav`
   align-items: center;
   font-size: 1rem;
   position: sticky;
-  top: 0;
+  top: 11vh;
   //padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 10;
 
@@ -26,17 +25,17 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
+  max-width: 1400px;
 `
 
 export const NavLogo = styled(Link)`
   cursor: pointer;
   color: #000;
   justify-self: flex-start;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 6.5%;
   font-weight: bold;
   text-decoration: none;
 `
@@ -60,7 +59,7 @@ export const NavMenu = styled.div`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
+  margin-right: 4%;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -72,7 +71,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLink = styled(Link)`
-  color: #000;
+  color: #7d8790;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -80,7 +79,7 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   &.active {
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid #0000ff;
 
     color: blue;
   }
@@ -116,4 +115,20 @@ export const NavBtnLink = styled(Link)`
     background: #215ee9;
     color: white;
   }
+`
+
+export const NavBtnIcon = styled(Link)`
+  border-radius: 50px;
+  background: transparent;
+  white-space: nowrap;
+  padding: 10px 10px;
+  color: #000;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 5%;
+  text-decoration: none;
+  background-image: url('https://i.ibb.co/qFkk0sD/Union.png');
+  background-repeat: no-repeat;
 `

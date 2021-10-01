@@ -3,24 +3,25 @@ import styled from 'styled-components'
 export const Input = styled.div`
   position: relative;
   font-size: 80%;
-  width: 200px;
+  width: 80%;
   border-radius: 10px;
-  margin: auto;
+  left: -5vh;
+  margin: 5vh;
 `
 
 export const InputButtom = styled.button`
   position: absolute;
-  right: -60px;
-  top: 5px;
-  border-radius: 10px;
-  width: 100px;
-  height: 65%;
+  right: -1vh;
+  top: 0.1vh;
+  border-radius: 20px;
+  width: 15.3vh;
+  height: 3.8vh;
   border: 0;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
 `
 export const InputText = styled.input`
-  width: 100%;
-  height: 30px;
+  width: 37vh;
+  height: 4vh;
   padding-right: 60px;
   border-radius: 20px;
   border: 0;
