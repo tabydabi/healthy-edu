@@ -5,10 +5,16 @@ export const Wrapper = styled.div`
   height: 100%;
 `
 export const Hero = styled.img`
-  position: absolute;
+  height: 90vh;
+
   z-index: 100;
-  height: 85vh;
-  bottom: -4rem;
+  margin: 0px 8vh;
+  margin-top: -4.7vh;
+
+  @media screen and (max-width: 640px) {
+    /* margin: 0px -10vh;
+    margin-top: -20vh; */
+  }
 `
 export const BackDown = styled.img`
   position: absolute;
@@ -24,7 +30,7 @@ export const BackUp = styled.img`
   margin-bottom: 3em;
 `
 Hero.defaultProps = {
-  src: 'https://i.ibb.co/5jfRX6F/Hero-Image.png',
+  src: 'https://i.ibb.co/thpSp4X/Hero-Image-4.png',
 }
 
 BackDown.defaultProps = {

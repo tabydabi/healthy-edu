@@ -7,5 +7,59 @@ export const GlobalWrapper = styled.div`
 `
 
 export const DivWrapper = styled.div`
-  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 60%;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 20px;
+  right: 0;
+  background-image: url('https://i.ibb.co/LhZMnxj/Group-129-1.png');
+  background-repeat: no-repeat;
+  @media screen and (max-width: 640px) {
+    position: initial;
+  }
+`
+
+export const DivLeft = styled.div`
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 90%;
+  top: 10vh;
+  transform: translate(-50%, -50$);
+  background-image: url('https://i.ibb.co/8jRRRGb/Vector-7.png');
+  background-repeat: no-repeat;
+  background-size: 70vh;
+  background-position: right bottom;
+
+  @media screen and (max-width: 768px) {
+    background-position: center top;
+  }
+`
+
+export const SecondDivWrapper = styled.div`
+  height: 100vh;
+  width: 60%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  padding-top: 20px;
+  left: 0;
+  background-image: url('https://i.ibb.co/P6bJDzg/Group-607.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 80%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  @media screen and (max-width: 640px) {
+    position: initial;
+  }
+`
+export const DivRight = styled.div`
+  position: absolute;
+  padding: 0rem 9vw;
+  top: 23vh;
 `

@@ -9,12 +9,6 @@ import {
 } from './styles'
 
 const Images = () => {
-  return (
-    <Wrapper>
-      <Hero />
-      <BackDown />
-      <BackUp />
-    </Wrapper>
-  )
+  return <Hero />
 }
 export default Images

@@ -17,6 +17,12 @@ export const Nav = styled.nav`
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }
+
+  @media screen and (max-width: 640px) {
+    transition: 0.8s all ease;
+    top: 1vh;
+    padding: 0px 0px;
+  }
 `
 export const NavbarContainer = styled.div`
   display: flex;
@@ -38,6 +44,9 @@ export const NavLogo = styled(Link)`
   margin-left: 6.5%;
   font-weight: bold;
   text-decoration: none;
+  @media screen and (max-width: 640px) {
+    margin-left: 0vh;
+  }
 `
 
 export const MobileIcon = styled(FaBars)`
