@@ -44,6 +44,7 @@ export const NavLogo = styled(Link)`
   margin-left: 6.5%;
   font-weight: bold;
   text-decoration: none;
+
   @media screen and (max-width: 640px) {
     margin-left: 0vh;
   }

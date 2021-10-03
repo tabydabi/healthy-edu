@@ -19,7 +19,10 @@ const Navbar = () => {
     <React.Fragment>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/"> Modsen Health </NavLogo>
+          <NavLogo to="/">
+            <img src="https://i.ibb.co/6rXxhfy/wind-1.png" />{' '}
+            Modsen Health
+          </NavLogo>
           <MobileIcon>
             <FaBars />
           </MobileIcon>
