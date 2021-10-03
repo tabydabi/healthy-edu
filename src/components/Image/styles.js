@@ -12,8 +12,10 @@ export const Hero = styled.img`
   margin-top: -4.7vh;
 
   @media screen and (max-width: 640px) {
-    /* margin: 0px -10vh;
-    margin-top: -20vh; */
+    /* position: initial; */
+    margin: 0px -7vh -58vh;
+    margin-top: -20vh;
+    height: 73vh;
   }
 `
 export const BackDown = styled.img`

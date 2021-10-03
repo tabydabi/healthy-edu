@@ -19,7 +19,8 @@ export const DivWrapper = styled.div`
   background-image: url('https://i.ibb.co/LhZMnxj/Group-129-1.png');
   background-repeat: no-repeat;
   @media screen and (max-width: 640px) {
-    position: initial;
+    /* position: initial; */
+    width: 100%;
   }
 `
 
@@ -32,7 +33,7 @@ export const DivLeft = styled.div`
   transform: translate(-50%, -50$);
   background-image: url('https://i.ibb.co/8jRRRGb/Vector-7.png');
   background-repeat: no-repeat;
-  background-size: 70vh;
+  background-size: 60vh;
   background-position: right bottom;
 
   @media screen and (max-width: 768px) {
@@ -55,11 +56,16 @@ export const SecondDivWrapper = styled.div`
   overflow-x: hidden;
   overflow-y: hidden;
   @media screen and (max-width: 640px) {
-    position: initial;
+    width: 100%;
+    top: 42.3vh;
+    left: -2.1vh;
   }
 `
 export const DivRight = styled.div`
   position: absolute;
   padding: 0rem 9vw;
   top: 23vh;
+  @media screen and (max-width: 640px) {
+    top: 21.8vh;
+  }
 `

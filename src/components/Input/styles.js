@@ -7,6 +7,12 @@ export const Input = styled.div`
   border-radius: 10px;
   left: -4vh;
   margin: 4.7vh;
+  @media screen and (max-width: 640px) {
+    /* position: initial; */
+    width: 80%;
+    margin: 3.6vh;
+    left: -2.3vh;
+  }
 `
 
 export const InputButtom = styled.button`
@@ -18,6 +24,11 @@ export const InputButtom = styled.button`
   height: 3.8vh;
   border: 0;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  @media screen and (max-width: 640px) {
+    /* position: initial; */
+    width: 12.6vh;
+    border-radius: 2vh;
+  }
 `
 export const InputText = styled.input`
   width: 37vh;
@@ -26,4 +37,10 @@ export const InputText = styled.input`
   border-radius: 20px;
   border: 0;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  @media screen and (max-width: 640px) {
+    /* position: initial; */
+    width: 30vh;
+    height: 4.2vh;
+    border-radius: 2vh;
+  }
 `

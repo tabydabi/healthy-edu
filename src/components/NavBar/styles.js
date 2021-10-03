@@ -20,7 +20,7 @@ export const Nav = styled.nav`
 
   @media screen and (max-width: 640px) {
     transition: 0.8s all ease;
-    top: 1vh;
+    top: 0vh;
     padding: 0px 0px;
   }
 `
