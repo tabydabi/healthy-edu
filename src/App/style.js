@@ -19,7 +19,7 @@ export const DivWrapper = styled.div`
   background-image: url('https://i.ibb.co/LhZMnxj/Group-129-1.png');
   background-repeat: no-repeat;
   @media screen and (max-width: 640px) {
-    /* position: initial; */
+    top: -3vh;
     width: 100%;
   }
 `
@@ -33,11 +33,13 @@ export const DivLeft = styled.div`
   transform: translate(-50%, -50$);
   background-image: url('https://i.ibb.co/8jRRRGb/Vector-7.png');
   background-repeat: no-repeat;
-  background-size: 60vh;
+  background-size: 68vh;
   background-position: right bottom;
 
   @media screen and (max-width: 768px) {
+    background-image: url('https://i.ibb.co/WFgF70W/Vector-8.png');
     background-position: center top;
+    background-size: 45vh;
   }
 `
 

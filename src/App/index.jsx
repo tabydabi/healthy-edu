@@ -30,10 +30,3 @@ export default () => (
     </GlobalWrapper>
   </React.Fragment>
 )
-
-{
-  /* <DivWrapper>
-<Content />
-<Images />
-</DivWrapper> */
-}

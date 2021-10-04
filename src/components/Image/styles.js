@@ -14,7 +14,7 @@ export const Hero = styled.img`
   @media screen and (max-width: 640px) {
     /* position: initial; */
     margin: 0px -7vh -58vh;
-    margin-top: -20vh;
+    margin-top: -11vh;
     height: 73vh;
   }
 `

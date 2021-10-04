@@ -36,7 +36,7 @@ export const DescriptionText = styled.p`
   line-height: 30px;
   color: #215ee9;
   margin-block-start: -0.9em;
-
+  margin-left: 0.7vh;
   @media screen and (max-width: 640px) {
     font-size: 3.2vw;
     line-height: 130%;

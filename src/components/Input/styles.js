@@ -17,7 +17,7 @@ export const Input = styled.div`
 
 export const InputButtom = styled.button`
   position: absolute;
-  right: -0.5vh;
+  right: 1.5vh;
   top: 0.4vh;
   border-radius: 20px;
   width: 15.3vh;
@@ -28,6 +28,8 @@ export const InputButtom = styled.button`
     /* position: initial; */
     width: 12.6vh;
     border-radius: 2vh;
+    right: 0vh;
+    height: 3.5vh;
   }
 `
 export const InputText = styled.input`
