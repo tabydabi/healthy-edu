@@ -3,7 +3,6 @@ import InputPage from '../Input'
 import TableStats from '../Stats/index'
 import {
   LittleText,
-  Wrapper,
   BigText,
   DescriptionText,
 } from './styles'

@@ -18,7 +18,12 @@ export const DivWrapper = styled.div`
   right: 0;
   background-image: url('https://i.ibb.co/LhZMnxj/Group-129-1.png');
   background-repeat: no-repeat;
+  background-size: 100%;
   @media screen and (max-width: 640px) {
+    top: -3vh;
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
     top: -3vh;
     width: 100%;
   }
@@ -36,10 +41,13 @@ export const DivLeft = styled.div`
   background-size: 68vh;
   background-position: right bottom;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 640px) {
     background-image: url('https://i.ibb.co/WFgF70W/Vector-8.png');
     background-position: center top;
     background-size: 45vh;
+  }
+  @media screen and (width: 768px) {
+    background-size: 0;
   }
 `
 
@@ -53,14 +61,20 @@ export const SecondDivWrapper = styled.div`
   left: 0;
   background-image: url('https://i.ibb.co/P6bJDzg/Group-607.png');
   background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 80%;
+  background-position: 0% 90%;
+  background-size: 68%;
   overflow-x: hidden;
   overflow-y: hidden;
   @media screen and (max-width: 640px) {
     width: 100%;
-    top: 42.3vh;
-    left: -2.1vh;
+    top: 39vh;
+    left: -1.5vh;
+  }
+  @media screen and (width: 768px) {
+    width: 100%;
+    top: 30vh;
+    left: 10.5vh;
+    background-size: 0%;
   }
 `
 export const DivRight = styled.div`
@@ -69,5 +83,32 @@ export const DivRight = styled.div`
   top: 23vh;
   @media screen and (max-width: 640px) {
     top: 21.8vh;
+  }
+`
+
+export const DivBackgroundImg = styled.div`
+  background-image: url('https://i.ibb.co/2tnmtnk/Vector-6.png');
+  background-repeat: no-repeat;
+  background-position: 80% 16%;
+
+  @media screen and (max-width: 640px) {
+    background-size: 0%;
+  }
+  @media screen and (width: 1200px) {
+    background-size: 60%;
+    background-position: 95% 16%;
+  }
+  @media screen and (width: 1920px) {
+    background-size: 50%;
+    background-position: 95% 100%;
+  }
+  @media screen and (width: 768px) {
+    background-size: 100%;
+  }
+  @media screen and (width: 1440px) {
+    background-position: 100% 16%;
+  }
+  @media screen and (width: 992px) {
+    background-size: 0%;
   }
 `

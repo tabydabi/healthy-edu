@@ -11,7 +11,6 @@ import {
   NavbarContainer,
   NavItem,
   NavBtnIcon,
-  NavLogoIcon,
 } from './styles'
 
 const Navbar = () => {
@@ -20,7 +19,7 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
-            <img src="https://i.ibb.co/6rXxhfy/wind-1.png" />{' '}
+            <img src="https://i.ibb.co/6rXxhfy/wind-1.png" />
             Modsen Health
           </NavLogo>
           <MobileIcon>
@@ -44,7 +43,7 @@ const Navbar = () => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="signin">Sign</NavBtnLink>
+            <NavBtnLink to="signin">Sign in</NavBtnLink>
             <NavBtnLink to="register">Register</NavBtnLink>
             <NavBtnIcon to="follow"></NavBtnIcon>
           </NavBtn>

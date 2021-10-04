@@ -21,6 +21,7 @@ export const BigText = styled.h1`
   padding: 0px 0.5vw;
   color: #215ee9;
   text-align: justify;
+
   @media screen and (max-width: 640px) {
     font-size: 10.2vw;
     line-height: 95%;
@@ -38,9 +39,9 @@ export const DescriptionText = styled.p`
   margin-block-start: -0.9em;
   margin-left: 0.7vh;
   @media screen and (max-width: 640px) {
-    font-size: 3.2vw;
+    font-size: 3.1vw;
     line-height: 130%;
     margin-block-start: -0.1em;
-    padding: 0px 1vw;
+    padding: 0px 0vw;
   }
 `

@@ -7,6 +7,7 @@ import {
   DivLeft,
   SecondDivWrapper,
   DivRight,
+  DivBackgroundImg,
 } from './style'
 import Content from '@/components/Content'
 import Images from '@/components/Image'
@@ -15,10 +16,11 @@ export default () => (
   <React.Fragment>
     <GlobalWrapper>
       <Navbar />
-
       <DivWrapper>
         <DivLeft>
-          <Images />
+          <DivBackgroundImg>
+            <Images />
+          </DivBackgroundImg>
         </DivLeft>
       </DivWrapper>
 

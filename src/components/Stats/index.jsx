@@ -1,15 +1,15 @@
 import React from 'react'
-import { Table } from './styles'
+import { BigText, Table } from './styles'
 
 const TableStats = () => {
   return (
     <div>
       <Table>
-        <tr style={{ fontSize: '5vh', textAlign: 'left' }}>
+        <BigText>
           <th>240</th>
           <th>1.456</th>
           <th>1M+</th>
-        </tr>
+        </BigText>
         <tr>
           <td>
             Qualified Doctors &<br /> Medical Specialists

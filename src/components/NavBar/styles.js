@@ -23,6 +23,11 @@ export const Nav = styled.nav`
     top: 0vh;
     padding: 0px 0px;
   }
+  @media screen and (max-width: 768px) {
+    transition: 0.8s all ease;
+    top: 0vh;
+    padding: 0px 0px;
+  }
 `
 export const NavbarContainer = styled.div`
   display: flex;
@@ -69,9 +74,12 @@ export const NavMenu = styled.div`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -16vh;
+  margin-right: -10vh;
   @media screen and (max-width: 768px) {
     display: none;
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    margin-right: 0vh;
   }
 `
 
@@ -89,12 +97,13 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   &.active {
-    border-bottom: 3px solid #0000ff;
-
-    color: blue;
+    background-image: url('https://i.ibb.co/xfGLYKM/Ellipse-249.png');
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    color: #0000ff;
   }
   &:hover {
-    color: black;
+    color: #0000ff;
   }
 `
 
@@ -111,7 +120,8 @@ export const NavBtnLink = styled(Link)`
   border-radius: 50px;
   background: transparent;
   white-space: nowrap;
-  padding: 10px 22px;
+  //padding: 16px 50px;
+  padding: 1vh 3.6vh;
   color: #000;
   font-size: 16px;
   outline: none;
@@ -119,7 +129,8 @@ export const NavBtnLink = styled(Link)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  margin: 0px 3.5vh;
+  margin: 0px 5vh;
+  margin-left: -5vh;
 
   &:hover {
     transition: all 0.2s ease-in-out;
